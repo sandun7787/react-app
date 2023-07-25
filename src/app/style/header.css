@@ -1,0 +1,48 @@
+.header_container{
+    width:100%;
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:10000;
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+    alighn-item:flex-start;
+    gap:20px;
+    transition: 400ms ease-in;
+}
+
+.header_container nav{
+    position: relative;
+
+}
+
+.header_container nav ul{
+    position:absolute;
+    top: -22px;
+    right:-22px;
+    padding: 20px 50px 50px;
+    background-color: green;
+    height: 100vh;
+}
+
+.header_container nav ul li{
+    cursor:pointer;
+
+}
+
+haeder_container new ul list-style:hover{
+    color:red;
+}
+
+.header__container .header__menu{
+    gap:40px;
+    display:flex:flow-root;
+    aligh::after;
+}
+
+.header__container .header__menuClose{
+cursor:pointer;
+}
